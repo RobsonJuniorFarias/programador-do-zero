@@ -1,5 +1,6 @@
 <!DOCTYPE html> <!--Versão do HTML-->
 <html lang="pt-br"> <!---->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Dia 01</title>
 </head>
-<body> 
-    <img src="imagens/logo.png" alt="Logo da tesla">
 
-    <video src="imagens/model-y.mp4" autoplay loop muted></video>
-    
-    <h1>Model Y</h1>
-    <p>Parcelas a partir de 399 doláres</p>
-    <button>Comprar agora</button>
-    <button>Faça um teste drive</button>
-    <p>Não garantimos seu veículo imediatamente. Consultar estoque</p>
+<body>
+    <img src="imagens/logo.png" alt="Logo da tesla" class="logo">
+
+    <div class="item">
+        <video src="imagens/model-y.mp4" autoplay loop muted></video>
+
+        <div class="info-carro">
+            <h1>Model Y</h1>
+            <p class="subtt">Parcelas a partir de 399 doláres</p>
+        </div>
+
+        <div class="rodape">
+            <button>Comprar agora</button>
+            <button class="test-drive">Faça um teste drive</button>
+            <p class="texto-rdp">Não garantimos seu veículo imediatamente. Consultar estoque</p>
+        </div>
+
+    </div>
 </body>
+
 </html>
