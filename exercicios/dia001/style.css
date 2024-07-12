@@ -27,7 +27,6 @@ video, .img-tesla {
     filter: brightness(100);
     position: fixed;
     width: 120px;
-    color: white;
 }
 
 .item {
@@ -51,9 +50,17 @@ h1 {
     color: white;
 }
 
+.subtt2 {
+    color: black;
+}
+
 .info-carro {
     margin-top: 80px;
     text-align: center;
+}
+
+.info-carro2{
+    color: black;
 }
 
 .rodape {
@@ -74,6 +81,18 @@ button {
     background-color: white;
 }
 
-.texto-rdp{
+.texto-rodape {
     color: white;
+    font-size: 12px; /* TAMANHO DO TEXTO */
+    margin-top: 10px;
+}
+
+.formulario {
+    position: fixed;
+    top: 40px;
+    width: 600px;
+    height: 100%;
+    z-index: 3;
+    left: -50%;
+    transition: 1.5s;
 }
