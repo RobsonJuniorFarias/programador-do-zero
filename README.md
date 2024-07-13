@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Dia 01</title>
+    <title>New & Used Eletric Cars | Tesla</title>
 </head>
 
 <body>
@@ -42,10 +42,14 @@
         <img src="imagens/model-3.png" alt="Tesla Model-3" class="img-tesla">
 
         <div class="info-carro">
-            <h1>Model X</h1>
-            <p class="subtt">Parcelas a partir de 329 doláres</p>
+            <h1 class="info-carro2">Model X</h1>
+            <p class="subtt2">Parcelas a partir de 499 doláres</p>
         </div>
     </li>
-</body>
 
+    <div class="formulario">
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241935949111056"></script>
+    </div>    
+</body>
+    <script src="scripts.js"></script>
 </html>
