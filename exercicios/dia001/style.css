@@ -76,6 +76,10 @@ button {
     cursor: pointer; /* COLOCA A MÃOSINHA NO LUGAR DO MOUSE */
 }
 
+.texto-rdp{
+    color: white;
+}
+
 .test-drive {
     color: black;
     background-color: white;
